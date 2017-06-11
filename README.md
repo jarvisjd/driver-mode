@@ -6,3 +6,6 @@ UBI has a wide variety of potential benefits for both insurance providers and po
 There is a concerted effort in the industry to augment or obviate this OBD component through the use of various meta data and the intertial-measurement-unit (IMU) sensors and GPS receivers that are available in nearly every modern smartphone. A typical IMU consists of three principal components: an accelerometer, a gyroscope and a magnetometer; each of these sensors reports 3-axis data in the local reference frame of the phone. The quality of the accelerometer and gyroscope is insufficient for high-precision inertial navigation/analysis; however, with standard sensor-fusion techniques and modern developments in machine learning, important insights may be derived from the datastream.
 
 In order for these data to be useful in PHYD, we need to determine whether a policy holder, on whose phone the client-side PHYD software is running, is the driver of a vehicle or is a passenger sitting a mere half-meter away. We need to develop a rich feature space in which instances of this "driver-mode" may be effectively classified and delineated from instances of "passenger-mode". To that end, this preliminary notebook proposes, and begins to implement, various analyses that may find utility in driver-mode detection.
+
+
+Testing 123
